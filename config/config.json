@@ -1,0 +1,36 @@
+{
+  "development": {
+    "username": "oskarasv_krya",
+    "password": "$DB_DEV_PASSWORD",
+    "database": "oskarasv_krya",
+    "host": "$DB_DEV_HOST",
+    "dialect": "mysql",
+    "operatorsAliases": false,
+    "define": {
+      "timestamps": false
+    }
+  },
+  "test": {
+    "username": "oskarasv_krya",
+    "password": "$DB_TEST_PASSWORD",
+    "database": "oskarasv_krya",
+    "host": "$DB_TEST_HOST",
+    "dialect": "mysql",
+    "operatorsAliases": false,
+    "define": {
+      "timestamps": false
+    }
+  },
+  "production": {
+    "username": "oskarasv_krya",
+    "password": "$DB_PROD_PASSWORD",
+    "database": "oskarasv_krya",
+    "host": "$DB_PROD_HOST",
+    "dialect": "mysql",
+    "logging": false,
+    "operatorsAliases": false,
+    "define": {
+      "timestamps": false
+    }
+  }
+}

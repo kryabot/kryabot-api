@@ -1,0 +1,36 @@
+{
+  "name": "krya-api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js > out.log &",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@airbrake/node": "^2.1.8",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "~1.9.1",
+    "mysql2": "^1.6.5",
+    "oauth": "^0.9.15",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-oauth": "^1.0.0",
+    "redis": "^3.0.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "rotating-file-stream": "^1.4.2",
+    "sequelize": "^5.9.0",
+    "sequelize-cli": "^5.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "nodemon": "^1.19.1"
+  }
+}
