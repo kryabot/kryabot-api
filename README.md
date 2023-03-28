@@ -12,4 +12,4 @@ Folder `config` contains secret data which is later used by code.
 
 ## TODO
 - rewrite everything with proper async syntax
-- add cache for Twitch token validation to avoid Twitch API timeouts on higher user loads
+- add cache for Twitch token validation to avoid hitting Twitch API limits on higher user loads
